@@ -1,0 +1,5 @@
+db.estudiantesgrados.find({ id_estudiante: ObjectId('692fb71bbd5700c4b1fd0145') })
+
+db.asignaturas.find({ grado: ObjectId('693b6516be2d2072701f5d2d') })
+
+db.tareas.find({ id_asignatura: { $in: [ObjectId("6938e88cdd2cc4e007854095"), ObjectId("6938e2565dd2edc62c97b033")] } })
