@@ -1,0 +1,16 @@
+.thick-line-through {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px; /* Grosor del tachado */
+  background-color: rgb(216, 31, 31); /* Fondo amarillo claro */
+
+}
+
+.text-border-black {
+  border: 2px solid black; /* Grosor y color del borde */
+  padding: 4px; /* Espacio alrededor del texto */
+  display: inline-block; /* Para que el borde se ajuste al texto */
+}
+
+.text-xxs {
+  font-size: 0.6rem; /* Esto es más pequeño que text-xs, que es 0.75rem */
+}
